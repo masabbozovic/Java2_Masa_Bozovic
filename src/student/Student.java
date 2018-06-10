@@ -16,12 +16,16 @@ public class Student {
         this.firstName = "not defined";
         this.lastName = "not defined";
         this.yearOfBirth = 0;
+        this.course = new Course();
+        this.computer = new Computer();
     }
 
     public Student(String firstName, String lastName, int yearOfBirth) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.yearOfBirth = yearOfBirth;
+        this.course = new Course();
+        this.computer = new Computer();
     }
 
     public Student(String firstName, String lastName, int yearOfBirth, Course course, Computer computer) {
